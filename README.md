@@ -42,7 +42,19 @@ The API has three models, namely Restaurant, Pizza, and RestaurantPizza, which a
  # Routes
 The API has the following routes for performing CRUD operations on the resources:
 
-Restaurants
+# Restaurants
 GET /restaurants
+Return JSON data for all restaurants in the format:
 <img src="images/Screenshot from 2023-03-21 14-49-51.png" alt="">
 
+GET /restaurants/:id
+Return JSON data for a specific restaurant if it exists in the format:
+<img src="images/Screenshot from 2023-03-21 14-56-02.png" alt="">
+
+DELETE /restaurants/:id
+Deletes a specific restaurant if it exists from the database, along with any RestaurantPizzas that are associated with it. If the restaurant is deleted successfully.
+
+# Pizzas
+GET /pizzas
+Return JSON data in the format below:
+<img src="images/Screenshot from 2023-03-21 14-59-21.png" alt="">
