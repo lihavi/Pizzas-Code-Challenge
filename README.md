@@ -61,3 +61,12 @@ GET /pizzas
 
 Return JSON data in the format below:
 <img src="images/Screenshot from 2023-03-21 14-59-21.png" alt="">
+
+# Deployments
+Here are the Deployment links:
+
+https://code-challenge-p4gm.onrender.com/pizzas
+
+https://code-challenge-p4gm.onrender.com/restaurants
+
+https://code-challenge-p4gm.onrender.com/restaurants/1
